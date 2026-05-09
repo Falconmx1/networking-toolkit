@@ -38,3 +38,12 @@ venv\Scripts\activate
 
 pip install -r requirements.txt
 python main.py --help
+
+## 🧪 Uso rápido (ejemplos)
+
+```bash
+# Escaneo de puertos
+python main.py scan --target 192.168.1.1 --ports 22,80,443
+
+# Sniffer de paquetes (necesitas sudo/Admin en algunas OS)
+sudo python main.py sniff --interface eth0 --count 20
