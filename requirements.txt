@@ -5,3 +5,5 @@ netifaces
 psutil
 shodan
 pyOpenSSL
+python-dotenv
+dnspython
