@@ -3,3 +3,5 @@ colorama
 requests
 netifaces
 psutil
+shodan
+pyOpenSSL
